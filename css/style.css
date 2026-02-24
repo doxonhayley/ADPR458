@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(118, 148, 119);
+    margin: 0px 10%;
+    font-family: Florence, serif;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+}
+
+    
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0px 15px;
+            font-weight: bold;
+        }
+
+        /* Black text boxes with white text */
+        .textbox {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            margin: 15px 0px;
+            border-radius: 8px;
+        }
+
+        /* Heart-shaped image */
+        aside img {
+display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+        object-fit: cover;
+            
+    }
+            
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+        }
