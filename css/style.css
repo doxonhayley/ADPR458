@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(118, 148, 119);
     margin: 0px 10%;
     font-family: Florence, serif;
 }
@@ -61,3 +60,27 @@ display: block;
             text-align: center;
             margin-top: 30px;
         }
+        
+
+ /* background*/
+ 
+ aside img {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+body {
+  background-image: url('../images/paisley.png');
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: auto;
+  background-attachment: fixed;
+}
